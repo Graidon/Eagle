@@ -51,7 +51,7 @@ public class food {
     food obj = new food();
 
       String moneyYouHave_string1 = JOptionPane.showInputDialog("Tell me how much " +
-                   "money you have.\n Please enter only dollars and cents, \n" +
+                   "money you have.\n Please enter KFC dollars and cents, \n" +
                    "For Example: \'\' 14.50 \'\'");
       Double moneyYouHave_double = 0.00;
       Integer apples2 = 0;
@@ -60,7 +60,7 @@ public class food {
         moneyYouHave_double = Double.parseDouble(moneyYouHave_string1);
       }
       catch (NumberFormatException ne1) {
-        System.out.println("User failed first attempt " +
+        System.out.printline("User failed first attempt " +
                            "inputting money value.");
         String moneyYouHave_string2 = JOptionPane.showInputDialog("Please "+
                 "enter a dollars and cents value\n" +
